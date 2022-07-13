@@ -96,22 +96,12 @@
 
 /* footer */
 
-.map-container-2{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-  }
-  .map-container-2 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-  }
-
   .mapouter, .gmap_canvas {
     width: 329px !important;
+  }
+
+  .mapouter {
+    margin-left: 25%;
   }
 /* social media icon */
 .fa {
@@ -170,9 +160,35 @@
     border: 5px solid red;
 }
 
-@media screen and (min-width: 920px) {
+/* karriere */
+
+.wirsuchendich  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    margin: 50px;
+    object-fit: contain;
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 920px) {
     #footer {
         display: flex !important;
         flex-direction: row !important;
+    }
+    .mapouter {
+        margin-left: 0px;
+    }
+    .wirsuchendich  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        margin: 0px;
+        object-fit: fill;
+        width: 100%;
+        
     }
 }
