@@ -1,0 +1,178 @@
+
+
+.prima {
+    padding-top: 2rem;
+    font-family: 'Comic Neue', cursive;
+    color: #DE8D95;
+}
+
+.comicfont {
+    color: #ecc148;
+    font-family: 'Comic Neue', cursive;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #4285F4 !important;
+    
+  }
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(4, 0, 255) !important;
+    background: lightblue;
+  }
+
+.carousel-inner > .carousel-item > img {
+   height: 500px;
+   object-fit: contain;
+   width: 100%;
+  }
+
+.carousel-inner > .carousel-item {
+      width: 100%; 
+  }
+
+.carousel-control-prev-icon{
+    background-color: rgb(92, 87, 87);
+}
+
+.carousel-control-next-icon{
+    background-color: rgb(92, 87, 87);
+}
+
+#discription { 
+    background-color: rgb(201, 201, 201);
+    color: #4285F4 !important;
+    border-radius: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+
+
+.angebot {
+    text-align: center;
+    color: red;
+    margin: 2%;
+}
+
+.angebot > h2 {
+    font-size: 2.5em;
+}
+
+.card-group > .card > img {
+    height: 100%;
+}
+
+.red {
+    color: red;
+}
+
+.cardGroupLogo {
+    padding: 20px;
+    width: 90px;
+    height: 75px;
+    
+}
+
+.container-fluid {
+    background-color: #d4d4d4;
+}
+
+#unsereTeam {
+   height: 500px;
+   object-fit: contain;
+   width: 100%;
+}
+
+.uberUnsText {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #D4D4D4;
+    color: #4285F4 !important;
+    border-radius: 20px;
+    padding-left: 15%;
+    padding-right:15%;
+}
+
+/* footer */
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  .mapouter, .gmap_canvas {
+    width: 329px !important;
+  }
+/* social media icon */
+.fa {
+    
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+ 
+  .fa-logo{
+    padding: 20px;
+    background: white;
+    width: 50px;
+    text-align: center;
+    margin: 5px 2px;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+} 
+
+/* uber uns */
+
+.unsereTeamFoto  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 50px;
+   /*  object-fit: contain; */
+    /* width: 100%; */
+    
+}
+
+.unsereTeamFoto > img {
+    border: 5px solid red;
+}
+
+@media screen and (min-width: 920px) {
+    #footer {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+}
