@@ -201,5 +201,8 @@
         width: 100%;
         
     }
+    #events {
+        font-size: 16px;
+    }
 }
 
