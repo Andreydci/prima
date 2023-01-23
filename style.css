@@ -170,7 +170,18 @@
     margin: 50px;
     object-fit: contain;
     width: 100%;
-    
+
+}
+
+.psyhologie  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 0px;
+    object-fit: contain;
+    width: 100%;
+
 }
 
 @media screen and (max-width: 920px) {
@@ -187,6 +198,16 @@
         align-items: center;
         justify-content: center;
         height: 500px;
+        margin: 0px;
+        object-fit: fill;
+        width: 100%;
+        
+    }
+    .psyhologie  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
         margin: 0px;
         object-fit: fill;
         width: 100%;
