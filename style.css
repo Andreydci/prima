@@ -80,7 +80,7 @@
 
 
 /* footer */
-
+    
   .mapouter, .gmap_canvas {
     width: 329px !important;
   }
@@ -186,10 +186,7 @@
 
 @media screen and (max-width: 920px) {
         
-    #footer {
-        display: flex !important;
-        flex-direction: row !important;
-    }
+   
     .mapouter {
         margin-left: 0px;
     }
@@ -207,7 +204,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 350px;
+        height: 300px;
         margin: 0px;
         object-fit: fill;
         width: 100%;
@@ -225,6 +222,17 @@
     }
     #events {
         font-size: 16px;
+    }
+
+    #footerul {
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    #footerul :nth-child(1) img {
+        padding-bottom: 30px;
     }
 }
 
